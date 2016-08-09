@@ -1,17 +1,21 @@
+#Author: Victor Kubam
+# To run this file add the following code in your R console:
+#source("https://raw.githubusercontent.com/victorkubam/timeSeries/master/script/timeseries.R")
+
+
 #Time series Analysis of Belgium Transport Data
 
 #Add libraries
-install.packages("RCurl")
-install.packages("foreign")
-install.packages("dplyr")
-install.packages("MTS")
-
+#install.packages("RCurl")
+#install.packages("foreign")
+#install.packages("dplyr")
+#install.packages("MTS")
 
 #Load Libraries
-library(RCurl)
-library(foreign)
-library(dplyr)
-library(MTS)
+require(RCurl)
+require(foreign)
+require(dplyr)
+require(MTS)
 
 #Import Data
 #Deaths
